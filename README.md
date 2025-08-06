@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/c52799df-98c3-445d-8678-81a31e9d2ef0
 </h1>
 
 <p align="center">
-  <img src="<img width="1024" height="1536" alt="file_00000000f00c622f800e2abdf4c59c7b" src="https://github.com/user-attachments/assets/e94e2aca-186f-493a-bcd0-79f866c99302" />
+  <img src="<img width="1024" height="1536" alt="file_00000000f00c622f800e2abdf4c59c7b" src="https://raw.githubusercontent.com/MrPYTHONI/bugscan-mr/main/banner.png" />
 " alt="BUGSCAN-MR BANNER" />
 </p>
 
