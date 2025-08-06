@@ -12,8 +12,7 @@ https://github.com/user-attachments/assets/c52799df-98c3-445d-8678-81a31e9d2ef0
 </h1>
 
 <p align="center">
-  <img src="<img width="1024" height="1536" alt="file_00000000f00c622f800e2abdf4c59c7b" src="https://raw.githubusercontent.com/MrPYTHONI/bugscan-mr/main/banner.png" />
-" alt="BUGSCAN-MR BANNER" />
+  <img src="https://raw.githubusercontent.com/MrPYTHONI/bugscan-mr/main/banner.png" alt="BUGSCAN-MR BANNER" />
 </p>
 
 ---
@@ -79,6 +78,7 @@ An interactive CLI guides you into recon—CDN scans, DNS digs, subdomain hunts,
 🧠 Screenshots
 
 (Insert horror-terminal aesthetic images here)
+<img width="1024" height="1536" alt="file_00000000f00c622f800e2abdf4c59c7b" src="https://github.com/user-attachments/assets/217074dc-b062-42a7-9a5e-45e3270d101b" />
 
 👁️ Credits
 
