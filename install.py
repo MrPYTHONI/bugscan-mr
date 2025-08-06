@@ -1,10 +1,10 @@
-#MrPYTHON
+# By MrPYTHON ☠️ - SecretNet Crew
 import os
 import subprocess
 import sys
 import shutil
 
-# Required Python packages
+# ✅ Required Python packages
 required_packages = [
     "beautifulsoup4",
     "requests",
@@ -13,31 +13,42 @@ required_packages = [
     "ipcalc"
 ]
 
-# Install any missing packages using pip
+# ✅ Install missing Python packages
 def install_missing_packages():
     for package in required_packages:
         try:
             __import__(package if package != "beautifulsoup4" else "bs4")
+            print(f"[✓] {package} is already installed")
         except ImportError:
             print(f"[+] Installing: {package}")
             subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-        else:
-            print(f"[✓] {package} is already installed")
 
-# Check if subfinder tool is installed
-def check_subfinder():
-    subfinder_path = shutil.which("subfinder")
-    if subfinder_path:
-        print(f"[✓] subfinder is installed: {subfinder_path}")
+# ✅ Install subfinder automatically if not found
+def install_subfinder():
+    print("[+] Installing Go and subfinder...")
+    subprocess.call("pkg install -y golang", shell=True)
+    subprocess.call("go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest", shell=True)
+
+    # Expected install path
+    subfinder_bin = os.path.expanduser("~/go/bin/subfinder")
+    if os.path.isfile(subfinder_bin):
+        print(f"[✓] subfinder installed at: {subfinder_bin}")
+        print("[*] Adding subfinder to PATH (temporary)...")
+        os.environ["PATH"] += os.pathsep + os.path.expanduser("~/go/bin")
+        print("[✓] Done! To make it permanent, run:")
+        print('echo \'export PATH="$PATH:$HOME/go/bin"\' >> ~/.bash_profile && source ~/.bash_profile')
     else:
-        print("[✗] subfinder is NOT installed!")
-        print("👉 To install subfinder on Termux or Linux, run:")
-        print("   pkg install golang")
-        print("   go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest")
-        print("➡️ Then add $HOME/go/bin to your $PATH")
+        print("❌ subfinder installation failed. Make sure Go is working properly.")
 
-# Run the setup check
+# ✅ Check if subfinder exists, install if not
+def check_and_install_subfinder():
+    if shutil.which("subfinder"):
+        print("[✓] subfinder is already installed.")
+    else:
+        install_subfinder()
+
+# ✅ Main execution
 if __name__ == "__main__":
-    print("🔧 Checking required Python libraries and subfinder...")
+    print("🔧 Checking environment and installing requirements...")
     install_missing_packages()
-    check_subfinder()
+    check_and_install_subfinder()
