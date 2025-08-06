@@ -13,52 +13,48 @@ https://github.com/user-attachments/assets/f7983ad0-102e-4c04-a9e0-f71462a4f890
 
 ---
 
-> ⚠️ WARNING: This tool is not for the faint of heart.  
-> 🧠 Created by real hackers, for real recon.
+> ⚠️ WARNING: This is not a toy.  
+> 👁️ Built by real hackers, for real cyber operations.  
+> 🧠 If you fear the dark… stay away.
 
 ---
 
-## 💀 About `bugscan-mr`
+## 💀 What is `bugscan-mr`?
 
-`bugscan-mr` is a multi-purpose, ultra-aggressive recon & CDN hunting tool designed to rip apart domains, IP ranges, and even APK files to find hidden endpoints, vulnerable assets, and secrets in the shadows.
+`bugscan-mr` is a **lethal recon and CDN hunter** engineered for maximum chaos. It tears through domains, IP ranges, and APKs like a beast in the shadows—**exposing secrets, endpoints, and vulnerabilities buried deep within digital infrastructure**.
 
-It’s built with power, speed, and style—wrapped in a terrifying terminal experience ☠️
+This is not your average scanner—**it’s a weapon** wrapped in a dark, blazing-fast terminal experience.
 
 ---
 
-## ⚙️ Features
+## ⚙️ Arsenal & Capabilities
 
-🧠 **Massive Domain Scanner**  
-- Scan domains via `SNI`, `SSL`, `HTTP`, `HTTPS`, and `Proxy`  
-- Multithreaded. Fast. Brutal.
+🧠 **Domain Shredder**  
+- Scan via `SNI`, `SSL`, `HTTP`, `HTTPS`, and `Proxy`  
+- Extreme multithreading — speed meets destruction.
 
-🧠 **Subdomain Extraction (Smart Recon Mode)**  
+🧠 **Subdomain Intelligence (Recon Mode)**  
 - From file or single domain  
-- Combines multiple sources:  
-  - `subfinder`  
-  - `crt.sh`  
-  - `alienvault`  
-  - `dnsdumpster`  
-  - (optional) VirusTotal API  
-- Saves beautiful subdomain lists
+- Merges data from:  
+  - `subfinder`, `crt.sh`, `alienvault`, `dnsdumpster`, *(+ VirusTotal optional)*  
+- Saves clear, clean, deadly lists.
 
-🧠 **CIDR CDN Scanner**  
-- Scan CIDR IP ranges for CDN fingerprints  
-- Detects servers like `cloudflare`, `google frontend`, `akamai`, and more  
-- Automatically filters noise like 302 redirects
+🧠 **CDN Hunter (CIDR Mode)**  
+- Fingerprint entire IP ranges  
+- Detect `Cloudflare`, `Google Frontend`, `Akamai`, and more  
+- Auto-filters fake signals & 302 decoys.
 
-🧠 **DNS Range Scanner**  
-- Fast UDP DNS probing  
-- Useful for discovering internal or exposed DNS servers in large IP blocks
+🧠 **DNS Range Prober**  
+- Blazing-fast UDP scanner  
+- Uncovers internal or forgotten DNS in vast IP blocks.
 
-🧠 **APK CDN Hunter**  
-- Extract URLs, domains, and CDN references from `.apk` files  
-- Highlight hidden payment links, CDN servers, and sensitive endpoints  
-- Useful for analyzing Android app infrastructure
+🧠 **APK Recon Engine**  
+- Rip `.apk` files for URLs, hidden CDN endpoints, payments & secrets  
+- Built for Android app surveillance.
 
 🧠 **IP Resolver**  
-- Convert list of domains to IP addresses  
-- Fast multithreaded resolution with beautiful output
+- Convert domain lists to IPs with speed and elegance  
+- Optimized output. Threads. No mercy.
 
 ---
 
@@ -70,32 +66,32 @@ cd bugscan-mr
 python3 install.py
 ```
 
-
-
 🕹️ Usage
 
 python3 bugscan.py 
-
-Interactive CLI will guide you through scanning, subdomain hunting, CIDR attacks, and more...
+An interactive CLI guides you into recon—CDN scans, DNS digs, subdomain hunts, and full-frontal cyber recon.
 
 🧠 Screenshots
 
-￼ 
+(Insert horror-terminal aesthetic images here)
 
 👁️ Credits
 
-🧠 Developed by: MrPYTHON ☠
+🧠 Coded by: MrPYTHON
 
-🔗 Telegram: https://t.me/SECRET1NET
+🧠 Crew: SecretNet ☠️
+
+📡 Telegram: https://t.me/SECRET1NET
 
 🎥 YouTube: https://youtube.com/@mr_python3?si=5HfhUxJOHlRCf1EA
 
-📜 More tools: https://mrpython3.carrd.co/ 
+🌐 More Tools: https://mrpython3.carrd.co/ 
 
 ⚠️ Legal Disclaimer
 
-This tool is made for educational and authorized testing purposes only.
-The creator takes no responsibility for any misuse. Use responsibly.
+This tool is intended for educational and authorized security research only.
+The developer is not responsible for misuse.
+Use ethically. Respect the law. Stay sharp.
 
-🧠 bugscan-mr — when normal recon isn’t enough... unleash the hacker within 🕷️
-
+🕷️ bugscan-mr — When normal recon isn’t enough...
+Unleash the darkness. Wield the scanner. Hunt the shadows.
