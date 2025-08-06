@@ -84,13 +84,13 @@ Interactive CLI will guide you through scanning, subdomain hunting, CIDR attacks
 
 👁️ Credits
 
-🧠 Developed by: MrPYTHON
+🧠 Developed by: MrPYTHON ☠
 
-🔗 Telegram: @SECRET1NET
+🔗 Telegram: https://t.me/SECRET1NET
 
-🎥 YouTube: @mr_python3
+🎥 YouTube: https://youtube.com/@mr_python3?si=5HfhUxJOHlRCf1EA
 
-📜 More tools: mrpython3.carrd.co
+📜 More tools: https://mrpython3.carrd.co/ 
 
 ⚠️ Legal Disclaimer
 
