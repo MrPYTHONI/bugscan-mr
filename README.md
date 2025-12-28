@@ -69,6 +69,9 @@ This is not your average scanner—**it’s a weapon** wrapped in a dark, blazin
 git clone https://github.com/MrPYTHONI/bugscan-mr.git
 cd bugscan-mr
 python3 install.py
+unzip bugscan.zip
+cd bugscan
+python bugscan.py
 ```
 
 🕹️ Usage
