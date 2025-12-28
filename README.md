@@ -70,7 +70,6 @@ git clone https://github.com/MrPYTHONI/bugscan-mr.git
 cd bugscan-mr
 python3 install.py
 unzip bugscan.zip
-cd bugscan
 python bugscan.py
 ```
 
